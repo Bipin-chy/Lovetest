@@ -1,0 +1,26 @@
+body{
+  background-color:white;
+}
+
+#navTop{
+  background-color: #272343;
+  color:#fff;
+  font-family: "Caveat",cursive;
+  padding: 3% 3% 0;
+}
+
+#top{
+  color: #272343;
+  text-align: center;
+  margin:0 5% 2% ;
+}
+.row{
+  margin-top: 4%;
+}
+
+.border{
+  margin:0.5%;
+  font-size: 1.5rem;
+  text-align:left;
+  border-top: 1px solid #000;
+}

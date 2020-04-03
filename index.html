@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="love.png">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/297d6911f9.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- section nav -->
+    <section id="navTop">
+      <div class="container-fluid">
+        <nav class="navbar bg-red navbar-expand-lg navbar-dark " style="padding-right:0;">
+          <a class="navbar-brand" href="">Love Calculator.</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="loveqoutes.html">LoveQoutes</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+<!-- section body -->
+
+    <section id="top">
+
+      <div class="row">
+        <div class="col-lg-6 loveDefine">
+              <h1>Love <i class="fas fa-heart"></i></h1>
+              <p class="define"><em>Love is like a beautiful flower which I may not touch, but whose fragrance makes the garden a place of delight just the same.Life without love is like a tree without blossoms or fruit. Love is of all passions the strongest, for it attacks simultaneously the head, the heart and the senses.</em></p>
+        </div>
+        <div class="col-lg-6 nameInput">
+
+            <label for="name1" class=" row-pad">YOUR NAME</label><br>
+            <input class="input_style" type="text"  id= "input" name="your_Name" value=""><br>
+
+            <label for="name2" class=" row-pad">YOUR CRUSH</label><br>
+            <input class="input_style" type="text" id= "input"  name="their_Name" value=""><br>
+
+            <button class="btn btn-outline-light btn-lg" type="button" onclick="myfunction();" name="button">Calculate love</button><br>
+
+
+            <img class="first giphy" src="happy.gif" alt="">
+            <img class="second giphy" src="yes.gif" alt="">
+            <img class="third giphy" src="sad.gif" alt="">
+            <img class="fourth giphy" src="sad11.gif" alt="">
+
+        <div class="Slidedown">
+          <h3 style="color:#fff;"></h3>
+          <p class ="output" style="color:#fff;"></p>
+          <h2 style="color:#fff;"></h2>
+          <h4 style="color:blue;"></h4>
+        </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+
+    <!-- javascript section -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>
